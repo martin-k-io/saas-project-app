@@ -98,3 +98,13 @@
 .extra {
   color: green;
 }
+
+
+.table tr td {
+  a.main-link {
+    color: #428BCA;
+  }
+  a.main-link:hover {
+    background: none;
+  }
+}
