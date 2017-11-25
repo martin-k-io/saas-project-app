@@ -1,7 +1,11 @@
-
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "font-awesome";
+
+
+body {
+  margin: 0 !important;
+}
 
 .user-name {
   padding: 0 !important ;
@@ -24,6 +28,18 @@
   padding-left: 0;
   margin-top: 3px;
 }
+
+.add-member {
+  margin-top :3px;
+  margin-bottom: 3px;
+  color: white !important;
+}
+
+.add-member:hover {
+  background-color: #2e6da4 !important;
+}
+
+
 
 .nav.navbar-right li {
   .btn {
