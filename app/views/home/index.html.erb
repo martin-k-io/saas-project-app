@@ -1,2 +1,39 @@
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+<% if current_user %>
+  <h3>Welcome: <%= current_user.email %></h3>
+<% else %>
+  <div class="jumbotron">
+  </div>
+  <div class="row">
+    <div class="plans clearfix">
+      <div class="col-lg-4 col-lg-offset-2 plan">
+        <h2>Free Plan - Free</h2>
+        <div class="features">
+          <ul>
+            <li><i class="fa fa-cloud-upload"></i>Unlimited File Uploads</li>
+            <li><i class="fa fa-mobile"></i>Responsive design</li>
+            <li><i class="fa fa-globe"></i>Access anywhere</li>
+            <li><i class="fa fa-clone"></i>1 project</li>
+            <li></li>
+          </ul>
+        </div>
+        <p>
+          <%= link_to 'Sign Up', new_user_registration_path, class: 'btn btn-primary sign-up' %>
+        </p>
+      </div>
+      <div class="col-lg-4 col-lg-offset-1 plan">
+        <h2>Premium Plan - $10</h2>
+        <div class="features">
+          <ul>
+            <li><i class="fa fa-cloud-upload"></i>Unlimited File Uploads</li>
+            <li><i class="fa fa-mobile"></i>Responsive design</li>
+            <li><i class="fa fa-globe"></i>Access anywhere</li>
+            <li class='extra'><i class="fa fa-clone"></i>Unlimited projects</li>
+          </ul>
+        </div>
+        <p>
+          <%= link_to 'Sign Up', new_user_registration_path, class: 'btn btn-primary sign-up' %>
+        </p>
+      </div>
+    </div>
+  </div>
+<% end %>
