@@ -3,8 +3,8 @@ Saas Project Management App
 
 This is a Saas Project Management app implementing the theory from the "Complete RoR Dev Course" @ Udemy
 
-1. Authentication system using Devise gem
-2. Milia for multi-tenancy
+1. Custom Authentication system using Devise gem
+2. Milia for multi-tenancy with custom conrimations
 3. Email activation on user sign-up using Sendgrid
 4. Bootstrap for UI styling
 
