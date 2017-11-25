@@ -26,6 +26,8 @@ gem 'coffee-rails', '~> 4.2'
 
 gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
+gem 'bootstrap-datepicker-rails'
+
 gem 'font-awesome-rails'
 gem 'bootstrap-sass', '~> 3.3.6'
 # Use jquery as the JavaScript library
