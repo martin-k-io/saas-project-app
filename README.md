@@ -5,13 +5,11 @@ This is a Saas Project Management app implementing the theory from the "Complete
 
 1. Email activation on user sign-up using Sendgrid
 2. Milia for multi-tenancy with custom confirmations
-3. Custom Authentication system using Devise gem
-4. File uploading using aws-sdk gem and S3 bucket
-5. Bootstrap for UI styling
-
-0. Payment system using Stripe API with custom form
-0. Custom registration form with Credit Card details
-0. Extended registration gem for payment feature
+3. File uploading using aws-sdk gem and S3 bucket
+5. Payment system using Stripe API
+6. Custom registration form with Credit Card details
+7. Extended registration gem for payment feature
+8. Bootstrap for UI styling
 
 Tech specs
 ----------
