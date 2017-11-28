@@ -10,7 +10,8 @@ This is a Saas Project Management app implementing the theory from the "Complete
 6. Custom registration form with Credit Card details
 7. Extended registration gem for payment feature
 8. Switch between plans(free,premium)
-9. Bootstrap for UI styling
+9. Admin user functionality
+10. Bootstrap for UI styling
 
 Tech specs
 ----------
