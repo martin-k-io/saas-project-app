@@ -24,14 +24,16 @@ body {
   }
 }
 
-.logout {
-  padding-left: 0;
-  margin-top: 3px;
+.logout, .sign-in {
+  padding-left: 9px !important;
+  margin-top: 6px !important;
+  padding-top: 6px !important;
 }
 
 .add-member {
-  margin-top :3px;
-  margin-bottom: 3px;
+  margin-top: 10px;
+  padding-top: 5px !important;;
+  padding-bottom: 5px !important;;
   color: white !important;
 }
 
@@ -39,7 +41,22 @@ body {
   background-color: #2e6da4 !important;
 }
 
+.edit-plan{
+  margin-top: 10px;
+  margin-left: 10px;
+  padding-top: 5px !important;;
+  padding-bottom: 5px !important;;
+  color: white !important;
+}
 
+.edit-plan:hover{
+  background-color: #2e6da4 !important;
+}
+
+.navbar-brand {
+  font-size: 2em;
+  padding: 13px;
+}
 
 .nav.navbar-right li {
   .btn {
